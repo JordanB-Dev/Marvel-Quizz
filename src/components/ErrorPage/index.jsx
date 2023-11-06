@@ -1,4 +1,4 @@
-import batman from '../../../public/images/batman.png'
+import batman from '../../images/batman.png'
 
 const centerH2 = {
   textAlign: 'center',

@@ -70,7 +70,7 @@ h3 {
 body {
   margin: 0;
   padding: 0;
-  background-image: url(images/bg-noise-texture.png);
+  background-image: url(./src/images/bg-noise-texture.png);
   background-repeat: repeat;
   height: 100vh;
   display: flex;
@@ -106,7 +106,7 @@ main {
 /* WELCOME PAGE */
 .welcomePage {
   background-color: var(--red-color);
-  background-image: url(images/wolverine.png);
+  background-image: url(./src/images/wolverine.png);
   background-repeat: no-repeat;
   background-position: center center;
   display: flex;
@@ -115,15 +115,17 @@ main {
 }
 
 .startingImg {
-  background-image: url(images/xmen.png);
+  background-image: url(./src/images/xmen.png);
 }
 
 .leftImg {
-  background-image: url(images/wolverine.png), url(images/griffes-gauche.png);
+  background-image: url(./src/images/wolverine.png),
+    url(./src/images/griffes-gauche.png);
 }
 
 .rightImg {
-  background-image: url(images/wolverine.png), url(images/griffes-droit.png);
+  background-image: url(./src/images/wolverine.png),
+    url(./src/images/griffes-droit.png);
 }
 
 .leftBox {
@@ -210,7 +212,7 @@ footer {
 
 /* SIGNUP - LOGIN - FORGETPASSWORD */
 .signUpLoginBox {
-  background-image: url(images/bg-noise-texture.png);
+  background-image: url(./src/images/bg-noise-texture.png);
   background-repeat: repeat;
   -webkit-box-shadow: inset 0px 143px 108px -18px rgba(0, 0, 0, 0.39);
   -moz-box-shadow: inset 0px 143px 108px -18px rgba(0, 0, 0, 0.39);
@@ -226,7 +228,7 @@ footer {
 
 .formBoxLeftSignup {
   min-height: 500px;
-  background-image: url(images/ironman.png);
+  background-image: url(./src/images/ironman.png);
   background-repeat: no-repeat;
   background-position: center center;
   flex: 0 1 50%;
@@ -234,7 +236,7 @@ footer {
 
 .formBoxLeftLogin {
   min-height: 500px;
-  background-image: url(images/spiderman.png);
+  background-image: url(./src/images/spiderman.png);
   background-repeat: no-repeat;
   background-position: center center;
   flex: 0 1 50%;
@@ -242,7 +244,7 @@ footer {
 
 .formBoxLeftForget {
   min-height: 500px;
-  background-image: url(images/deadpool.png);
+  background-image: url(./src/images/deadpool.png);
   background-repeat: no-repeat;
   background-position: center center;
   flex: 0 1 50%;
